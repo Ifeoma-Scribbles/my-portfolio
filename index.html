@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ifeoma Gloria Ewim — Product Manager &amp; QA Professional</title>
+  <meta name="description" content="Ifeoma Gloria Ewim is a Product Manager and QA Professional. I think it through. I test it, too.">
+  <meta name="theme-color" content="#FBF6EC">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Ifeoma Gloria Ewim, back to top">Ifeoma <span>Gloria</span> Ewim</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#paths">Work</a>
+      <a href="#contact" class="btn btn--small">Work with me</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__text">
+        <p class="eyebrow">Product Management &amp; Quality Assurance</p>
+        <h1 id="hero-title">Ifeoma Gloria Ewim</h1>
+        <p class="hero__role">Product Manager &amp; QA Professional</p>
+        <p class="hero__lead">I’m a Product Manager and QA Professional who enjoys figuring out how products should work, what could go wrong, and how to make things better for the people using them.</p>
+        <p>I work across product thinking, requirements, user flows, and quality assurance, connecting the decisions made during product planning with the experience people actually have when they use a product.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#paths">Explore my work</a>
+          <a class="btn btn--secondary" href="#contact">Work with me</a>
+          <!-- CV not yet supplied as a public file. Swap the span for an <a href="assets/..."> when it is. -->
+          <span class="text-link text-link--pending" title="CV download coming soon">Download CV <small>(coming soon)</small></span>
+        </div>
+      </div>
+
+      <figure class="hero__portrait">
+        <div class="portrait-shape" aria-hidden="true"></div>
+        <div class="portrait-frame">
+          <img src="assets/img/portrait.webp" width="864" height="1086" alt="Portrait of Ifeoma Gloria Ewim, smiling, wearing a tan blazer over a brown satin top">
+        </div>
+        <span class="annotation" aria-hidden="true">
+          hi, I’m Ifeoma
+          <svg viewBox="0 0 80 60" width="70" height="52" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8c28-4 52 6 56 40"/><path d="M48 38l12 12 10-14"/></svg>
+        </span>
+      </figure>
+    </section>
+
+    <!-- PLACEHOLDER SHELLS for later stages. Anchors exist so the nav and CTAs work now. -->
+    <!-- ABOUT -->
+    <section class="shell shell--cotton about" id="about" aria-labelledby="about-title">
+      <div class="about__grid">
+        <div>
+          <h2 id="about-title">A little about how I work</h2>
+          <p>I like understanding how a product is supposed to work, why it needs to exist, and what the experience looks like for the people using it.</p>
+          <p>My work spans product management and quality assurance, from shaping requirements and mapping user flows to coordinating with developers and testing complete user journeys.</p>
+          <p>I pay attention to the details, but I also look at the bigger picture. A feature can behave exactly as specified and still make a task unnecessarily difficult. I want to understand those gaps, ask the right questions, and help teams make better decisions about what they build.</p>
+        </div>
+        <blockquote class="pullquote">
+          “I don’t just ask whether it works. I ask whether it works for the person using it.”
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- DISCIPLINE SELECTION -->
+    <section class="shell shell--lavender paths" id="paths" aria-labelledby="paths-title">
+      <div class="paths__head">
+        <div>
+          <p class="eyebrow">Two sides of my work</p>
+          <h2 id="paths-title">I think it through. I test it, too.</h2>
+          <p>Explore either one to see how I approach it.</p>
+        </div>
+        <img class="paths__guide" src="assets/img/guide.png" width="480" height="483" alt="" loading="lazy">
+      </div>
+
+      <div class="paths__cards">
+        <button type="button" class="path-card path-card--pm" data-open="pm" aria-haspopup="dialog">
+          <span class="path-card__num" aria-hidden="true">01</span>
+          <span class="path-card__title">Product Management</span>
+          <span class="path-card__copy">From understanding the need to organising the work that moves a product forward.</span>
+          <span class="path-card__cta">Explore Product Management <span aria-hidden="true">→</span></span>
+        </button>
+        <button type="button" class="path-card path-card--qa" data-open="qa" aria-haspopup="dialog">
+          <span class="path-card__num" aria-hidden="true">02</span>
+          <span class="path-card__title">Quality Assurance</span>
+          <span class="path-card__copy">Checking the details, testing real workflows, and finding issues that could get in the way.</span>
+          <span class="path-card__cta">Explore Quality Assurance <span aria-hidden="true">→</span></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- SWIFTENTRY: the story where product thinking and QA meet -->
+    <section class="shell shell--cotton story" id="swiftentry" aria-labelledby="swiftentry-title">
+      <p class="eyebrow">Where product thinking and QA meet</p>
+      <h2 id="swiftentry-title">When a feature works, but the workflow doesn’t</h2>
+      <p class="story__lead">SwiftEntry is an enterprise visitor-management system. I took it over at about 50% of the MVP and delivered Version 1.0 within six months, testing end-to-end workflows, supporting client acceptance testing and working with engineering before deployment.</p>
+
+      <ol class="story__steps">
+        <li>
+          <span class="story__num" aria-hidden="true">1</span>
+          <h3>I noticed</h3>
+          <p>Some workflows were more cumbersome than they needed to be, even though the features themselves worked.</p>
+        </li>
+        <li>
+          <span class="story__num" aria-hidden="true">2</span>
+          <h3>I asked</h3>
+          <p>I raised it with my manager and got approval to investigate. Then I gathered feedback from front-desk staff and an administrator to see where the experience was getting in the way.</p>
+        </li>
+        <li>
+          <span class="story__num" aria-hidden="true">3</span>
+          <h3>We improved</h3>
+          <p>I worked with the developers on selected workflow improvements for staff, administrators and visitors. We focused on selected workflows, not everything at once.</p>
+        </li>
+        <li>
+          <span class="story__num" aria-hidden="true">4</span>
+          <h3>I followed up</h3>
+          <p>After adoption, I ran follow-up sessions with front-desk and admin users to understand low routine use.</p>
+        </li>
+      </ol>
+
+      <blockquote class="story__takeaway">
+        Testing should go beyond checking whether a feature works. It should also help us understand how the product works for the people using it.
+      </blockquote>
+      <p class="placeholder-note">Approved SwiftEntry screenshots or a simple workflow illustration — to be supplied.</p>
+      <p class="story__links">
+        <a href="#paths">← Back to the two paths</a>
+        <a href="#freelance">Need this kind of help? ↓</a>
+      </p>
+    </section>
+
+    <!-- FREELANCE SUPPORT -->
+    <section class="shell shell--lavender freelance" id="freelance" aria-labelledby="freelance-title">
+      <div class="freelance__grid">
+        <div>
+          <h2 id="freelance-title">Need a hand moving a product forward?</h2>
+          <p>I’m open to discussing product and QA support for teams that need help getting organised, documenting what needs to be built, coordinating the work, or testing how it works.</p>
+          <a class="btn btn--primary" href="#contact">Work with me</a>
+        </div>
+        <ul class="freelance__list" role="list">
+          <li>Project management support</li>
+          <li>Requirements gathering and documentation</li>
+          <li>Product coordination</li>
+          <li>Manual QA testing</li>
+          <li>Related product and QA support, depending on the project</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="shell shell--plum" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Let’s talk about the work.</h2>
+      <p>Have a role, project, or collaboration in mind? You can reach me through any of the channels below.</p>
+      <div class="contact__grid">
+        <ul class="contact-list" role="list">
+          <li><span>Email</span><a href="mailto:ewimifeoma@gmail.com">ewimifeoma@gmail.com</a></li>
+          <li><span>LinkedIn</span><a href="https://linkedin.com/in/ifeoma-ewim" rel="noopener">linkedin.com/in/ifeoma-ewim</a></li>
+          <li><span>Phone</span><a href="tel:+2349138703880">+234 913 870 3880</a></li>
+        </ul>
+        <div class="contact__side">
+          <a class="btn btn--light" href="mailto:ewimifeoma@gmail.com">Get in touch</a>
+          <img class="contact__guide" src="assets/img/guide.png" width="480" height="483" alt="" loading="lazy">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Ifeoma Gloria Ewim</strong>
+      <p>Product Manager &amp; QA Professional</p>
+    </div>
+    <ul>
+      <li><a href="mailto:ewimifeoma@gmail.com">Email</a></li>
+      <li><a href="https://linkedin.com/in/ifeoma-ewim" rel="noopener">LinkedIn</a></li>
+      <li><a href="tel:+2349138703880">Phone</a></li>
+      <li><span class="text-link--pending">Download CV (coming soon)</span></li>
+    </ul>
+  </footer>
+
+  <!-- CHAPTERS: full-screen layers opened from the two cards. Projects are added in Stages 3 and 4. -->
+  <dialog class="chapter chapter--pm" id="chapter-pm" aria-labelledby="pm-title">
+    <div class="chapter__bar">
+      <button type="button" class="chapter__close" data-close>
+        <span aria-hidden="true">×</span> Close
+      </button>
+    </div>
+    <div class="chapter__body">
+      <p class="eyebrow">Chapter 01</p>
+      <h2 id="pm-title">Product Management</h2>
+      <p class="chapter__lead">I help turn product needs into clearer requirements, coordinated work, and decisions teams can act on. Here are selected examples of that work.</p>
+      <ul class="projects" role="list">
+        <li>
+          <button type="button" class="project-card" data-case="venstoc" aria-haspopup="dialog">
+            <span class="badge">Launched September 2026</span>
+            <span class="project-card__title">Venstoc</span>
+            <span class="project-card__copy">A B2B inventory-management platform for small and medium-sized businesses, owned from concept to launch.</span>
+            <span class="project-card__cta">Read the case study <span aria-hidden="true">→</span></span>
+          </button>
+        </li>
+        <li>
+          <a class="project-card project-card--link" href="#swiftentry" data-goto="swiftentry">
+            <span class="badge">Version 1.0 delivered</span>
+            <span class="project-card__title">SwiftEntry</span>
+            <span class="project-card__copy">An enterprise visitor-management system. I took over at about 50% of the MVP and delivered Version 1.0 within six months.</span>
+            <span class="project-card__cta">See the full story <span aria-hidden="true">↓</span></span>
+          </a>
+        </li>
+        <li>
+          <button type="button" class="project-card" data-case="nemsas" aria-haspopup="dialog">
+            <span class="badge">Handover in progress</span>
+            <span class="project-card__title">A national emergency services platform</span>
+            <span class="project-card__copy">Coordinating the technical handover of a national platform, and the documentation and test cases that go with it.</span>
+            <span class="project-card__cta">Read the case study <span aria-hidden="true">→</span></span>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="project-card" data-case="hemotrackr" aria-haspopup="dialog">
+            <span class="badge">Built, not yet adopted</span>
+            <span class="project-card__title">HemoTrackr</span>
+            <span class="project-card__copy">A blood-bank and hospital inventory coordination platform, shaped from data-protection and compliance requirements.</span>
+            <span class="project-card__cta">Read the case study <span aria-hidden="true">→</span></span>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="project-card" data-case="flows" aria-haspopup="dialog">
+            <span class="badge badge--alt">Skill showcase</span>
+            <span class="project-card__title">Product Flow Mapping &amp; User Journey Design</span>
+            <span class="project-card__copy">Turning a high-level product brief into structured user journeys.</span>
+            <span class="project-card__cta">Read the case study <span aria-hidden="true">→</span></span>
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="chapter__end">
+      <button type="button" class="btn btn--secondary" data-close>Back to the two paths</button>
+      <button type="button" class="btn btn--primary" data-open="qa">Explore Quality Assurance <span aria-hidden="true">→</span></button>
+    </div>
+  </dialog>
+
+  <dialog class="chapter chapter--qa" id="chapter-qa" aria-labelledby="qa-title">
+    <div class="chapter__bar">
+      <button type="button" class="chapter__close" data-close>
+        <span aria-hidden="true">×</span> Close
+      </button>
+    </div>
+    <div class="chapter__body">
+      <p class="eyebrow">Chapter 02</p>
+      <h2 id="qa-title">Quality Assurance</h2>
+      <p class="chapter__lead">I test how a product behaves in practice—not just whether a feature appears to work. I look for gaps in workflows, unclear behaviour, and issues that could affect access or use.</p>
+      <ul class="projects projects--two" role="list">
+        <li>
+          <button type="button" class="project-card" data-case="naderkela" aria-haspopup="dialog">
+            <span class="badge">Ongoing freelance engagement</span>
+            <span class="project-card__title">Naderkela</span>
+            <span class="project-card__copy">A telehealth platform with an integrated marketplace. Tested end to end across four types of users, including load testing up to 5,000 concurrent users.</span>
+            <span class="project-card__cta">Read the case study <span aria-hidden="true">→</span></span>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="project-card" data-case="nuloafrica" aria-haspopup="dialog">
+            <span class="badge">May – June 2026</span>
+            <span class="project-card__title">NuloAfrica</span>
+            <span class="project-card__copy">A rental platform. A test workbook of 140+ cases across 14 areas, API testing, and a high-priority access issue found and documented.</span>
+            <span class="project-card__cta">Read the case study <span aria-hidden="true">→</span></span>
+          </button>
+        </li>
+      </ul>
+
+      <section class="methods" aria-labelledby="methods-title">
+        <h3 id="methods-title">The kinds of testing, in plain English</h3>
+        <dl>
+          <div><dt>Exploratory</dt><dd>Using the product with no script first, to learn how it works and spot what looks off.</dd></div>
+          <div><dt>Manual</dt><dd>Following written test cases by hand, step by step, and recording what happens.</dd></div>
+          <div><dt>Regression</dt><dd>Re-checking what already worked after a fix, to make sure nothing else broke.</dd></div>
+          <div><dt>API</dt><dd>Checking the messages the product’s parts send each other, not just the screens. <em>NuloAfrica.</em></dd></div>
+          <div><dt>Load</dt><dd>Seeing how the product behaves as more and more people use it at once. <em>Naderkela.</em></dd></div>
+          <div><dt>Light security</dt><dd>A quick automated scan for common weaknesses. It is a first look, not a full security audit. <em>Naderkela.</em></dd></div>
+          <div><dt>SEO</dt><dd>Checking how easily search engines can read and rank the pages. <em>Naderkela.</em></dd></div>
+        </dl>
+      </section>
+    </div>
+    <div class="chapter__end">
+      <button type="button" class="btn btn--secondary" data-close>Back to the two paths</button>
+      <button type="button" class="btn btn--primary" data-open="pm">Explore Product Management <span aria-hidden="true">→</span></button>
+    </div>
+  </dialog>
+
+  <!-- CASE STUDIES: side panels opened from project cards inside a chapter. -->
+  <dialog class="case" id="case-venstoc" aria-labelledby="venstoc-title">
+    <div class="case__bar"><button type="button" class="chapter__close" data-close-case><span aria-hidden="true">←</span> Back to projects</button></div>
+    <article class="case__body">
+      <p class="badge">Launched September 2026</p>
+      <h3 id="venstoc-title">Venstoc</h3>
+      <p class="case__summary">A B2B inventory-management platform for small and medium-sized businesses.</p>
+      <dl class="case__facts">
+        <div><dt>My role</dt><dd>Product manager and owner, from concept through requirements, planning, build coordination, testing and launch.</dd></div>
+        <div><dt>What I did</dt>
+          <dd><ul>
+            <li>Shaped the product from an idea into requirements and a plan the team could build from.</li>
+            <li>Coordinated the build with the developers.</li>
+            <li>Created the test sheets, tested the product, and documented defects with severity and priority before release.</li>
+          </ul></dd></div>
+        <div><dt>What the product includes</dt><dd>Features include a passcode feature, account details on invoices, and business invoice customisation.</dd></div>
+        <div><dt>Status</dt><dd>Launched in September 2026.</dd></div>
+      </dl>
+      <figure class="case__evidence"><p class="placeholder-note">Screenshots and the problem statement — to be supplied.</p></figure>
+    </article>
+  </dialog>
+
+  <dialog class="case" id="case-nemsas" aria-labelledby="nemsas-title">
+    <div class="case__bar"><button type="button" class="chapter__close" data-close-case><span aria-hidden="true">←</span> Back to projects</button></div>
+    <article class="case__body">
+      <p class="badge">Handover in progress</p>
+      <h3 id="nemsas-title">A national emergency services platform</h3>
+      <p class="case__summary">A cross-team technical handover, where clear documentation and agreed tests decide whether the transferred system really matches the live one.</p>
+      <dl class="case__facts">
+        <div><dt>My role</dt><dd>Internal focal person for the handover from the outgoing vendor to my team.</dd></div>
+        <div><dt>What I did</dt>
+          <dd><ul>
+            <li>Prepared the handover document, covering the timeline, stakeholders, completed work, ongoing activities and next steps.</li>
+            <li>Coordinated communication between my team, the platform’s stakeholders and the outgoing vendor.</li>
+            <li>Worked with developers to define scope across backend, web, mobile and technical support.</li>
+            <li>Wrote the test cases and acceptance criteria used to check that transferred features, workflows, data and interfaces match the live platform.</li>
+          </ul></dd></div>
+        <div><dt>Status</dt><dd>The handover is still in progress.</dd></div>
+      </dl>
+    </article>
+  </dialog>
+
+  <dialog class="case" id="case-hemotrackr" aria-labelledby="hemotrackr-title">
+    <div class="case__bar"><button type="button" class="chapter__close" data-close-case><span aria-hidden="true">←</span> Back to projects</button></div>
+    <article class="case__body">
+      <p class="badge">Built, not yet adopted</p>
+      <h3 id="hemotrackr-title">HemoTrackr</h3>
+      <p class="case__summary">A blood-bank and hospital inventory coordination platform.</p>
+      <dl class="case__facts">
+        <div><dt>My role</dt><dd>Took the product over at concept stage and carried it through requirements and testing.</dd></div>
+        <div><dt>What I did</dt>
+          <dd><ul>
+            <li>Turned data-protection and compliance requirements for blood and donor data into product requirements.</li>
+            <li>Tested the APIs end to end, along with traceability features such as batch tracking and expiry alerts.</li>
+          </ul></dd></div>
+        <div><dt>Status</dt><dd>The platform is complete but has not yet been adopted.</dd></div>
+      </dl>
+      <figure class="case__evidence"><p class="placeholder-note">Screens or diagrams — to be supplied, if wanted.</p></figure>
+    </article>
+  </dialog>
+
+  <dialog class="case" id="case-flows" aria-labelledby="flows-title">
+    <div class="case__bar"><button type="button" class="chapter__close" data-close-case><span aria-hidden="true">←</span> Back to projects</button></div>
+    <article class="case__body">
+      <p class="badge badge--alt">Skill showcase</p>
+      <h3 id="flows-title">Product Flow Mapping &amp; User Journey Design</h3>
+      <p class="case__summary">Turning a high-level product brief into structured user journeys.</p>
+      <dl class="case__facts">
+        <div><dt>My role</dt><dd>I was contracted by a product designer to work on product flows. After an initial meeting to understand the product scope, I did my own research to understand the proposed product more deeply, then mapped flows for its different user types.</dd></div>
+        <div><dt>What this shows</dt>
+          <dd><ul>
+            <li>Working independently from a high-level brief.</li>
+            <li>Researching the product context and considering user needs.</li>
+            <li>Mapping journeys and interactions for different user types.</li>
+            <li>Turning a broad scope into structured flows that can inform design and development.</li>
+          </ul></dd></div>
+        <div><dt>Status</dt><dd>This is a planning exercise, not a launched product. The product’s identity is kept private.</dd></div>
+      </dl>
+      <figure class="case__evidence"><p class="placeholder-note">Anonymised flow-diagram screenshots — to be supplied, with the product name and other identifying details removed.</p></figure>
+    </article>
+  </dialog>
+
+  <dialog class="case" id="case-naderkela" aria-labelledby="naderkela-title">
+    <div class="case__bar"><button type="button" class="chapter__close" data-close-case><span aria-hidden="true">←</span> Back to projects</button></div>
+    <article class="case__body">
+      <p class="badge">Ongoing freelance engagement</p>
+      <h3 id="naderkela-title">Naderkela</h3>
+      <p class="case__summary">A healthcare and telehealth platform with an integrated marketplace for patients.</p>
+      <ul class="chips" aria-label="Testing methods used">
+        <li>Exploratory</li><li>Manual</li><li>Regression</li><li>Load (JMeter)</li><li>Light security (OWASP ZAP)</li><li>SEO (Lighthouse)</li>
+      </ul>
+      <dl class="case__facts">
+        <div><dt>The product</dt><dd>The platform has separate workflows for administrators, doctors, patients and support agents, plus a marketplace.</dd></div>
+        <div><dt>My role</dt><dd>Freelance QA tester. I tested the full patient journey, from booking an appointment to a live video consultation, and the other roles around it.</dd></div>
+        <div><dt>What I tested</dt>
+          <dd><ul>
+            <li>Admin staff management and oversight.</li>
+            <li>Doctor schedules, appointments, accepting or rejecting bookings, video consultations and article publishing.</li>
+            <li>The patient appointment journey.</li>
+            <li>Marketplace product flows, inventory and product management, and a glasses-recommendation flow based on what the patient enters.</li>
+          </ul></dd></div>
+        <div><dt>How I worked</dt>
+          <dd><ol>
+            <li>The developer onboarded me to the platform.</li>
+            <li>I started with exploratory testing to understand the product and its workflows.</li>
+            <li>I wrote test cases and test sheets to track the work and the results.</li>
+            <li>I tested the workflows manually.</li>
+            <li>I used Apache JMeter to load-test the platform from 500 up to 5,000 concurrent users. At 5,000 I documented a stability failure and shared the findings with engineering.</li>
+            <li>I ran a light security check with OWASP ZAP. This was an initial scan, not a full security audit.</li>
+            <li>I used Lighthouse to check SEO.</li>
+            <li>I re-tested fixes (regression) and followed up with the developers.</li>
+          </ol></dd></div>
+        <div><dt>Status</dt><dd>This is an ongoing freelance engagement that began in June 2026.</dd></div>
+      </dl>
+      <figure class="case__evidence"><p class="placeholder-note">Redacted test cases, test-sheet screenshots and a roles-and-workflows visual — to be supplied. No patient data, links or credentials.</p></figure>
+    </article>
+  </dialog>
+
+  <dialog class="case" id="case-nuloafrica" aria-labelledby="nuloafrica-title">
+    <div class="case__bar"><button type="button" class="chapter__close" data-close-case><span aria-hidden="true">←</span> Back to projects</button></div>
+    <article class="case__body">
+      <p class="badge">May – June 2026</p>
+      <h3 id="nuloafrica-title">NuloAfrica</h3>
+      <p class="case__summary">A rental platform for landlords and tenants.</p>
+      <ul class="chips" aria-label="Testing methods used">
+        <li>Exploratory</li><li>Manual</li><li>API</li><li>Regression</li><li>Test tracking</li>
+      </ul>
+      <dl class="case__facts">
+        <div><dt>My role</dt><dd>Freelance QA tester. I designed and ran the testing and followed up with the developers.</dd></div>
+        <div><dt>What I did</dt>
+          <dd><ul>
+            <li>Designed and ran a test workbook of 140+ test cases across 14 feature areas, covering sign-in, onboarding, payments, messaging and account roles.</li>
+            <li>Started with exploratory testing, then tested manually from written test cases and tracked every result in test sheets.</li>
+            <li>Tested the APIs, and checked payments end to end, including failed payments and error states.</li>
+            <li>Re-tested after fixes and followed up with the developers.</li>
+            <li>Traced a property-deletion failure to a backend data-structure problem, giving engineering the exact point of failure.</li>
+          </ul></dd></div>
+        <div><dt>A finding worth noting</dt><dd>I found and documented a high-priority role-based access issue: an account could briefly reach an area meant for a different role.</dd></div>
+      </dl>
+      <figure class="case__evidence"><p class="placeholder-note">Redacted test cases, a sample of the tracking sheet and API-testing evidence — to be supplied. The access issue only if it is safe to show.</p></figure>
+    </article>
+  </dialog>
+
+  <script src="main.js"></script>
+</body>
+</html>
